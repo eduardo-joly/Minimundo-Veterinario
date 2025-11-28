@@ -47,3 +47,37 @@ Servico_Consulta, Tabela associativa entre serviço e consulta
 Tratamento, Tratamentos gerais registrados
 
 As cardinalidades e chaves estão documentadas no DER Construído.
+
+
+Como Executar o Projeto
+
+1.Clonar o repositório
+git clone https://github.com/usuario/projeto-banco-clinica.git
+cd projeto-banco-clinica
+
+2.Executar os scripts no SQLite, MySQL, Workbench ou Beekeeper
+
+Na ordem:
+
+01_create_tables.sql
+
+02_insert_data.sql
+
+03_selects.sql
+
+
+Conclusão
+
+Este projeto integra:
+
+Modelagem Conceitual
+
+Transformação DER → Modelo Lógico
+
+Normalização até 3FN
+
+Implementação SQL real
+
+Manipulação e consulta de dados
+
+E atende 100% dos critérios da Experiência Prática IV.
