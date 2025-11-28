@@ -1,14 +1,3 @@
-Script de Criação das Tabelas (DDL)
-
-O arquivo `01_create_tables.sql` contém:
-
-✔ Estrutura completa das tabelas  
-✔ Definição das chaves primárias  
-✔ Definição das chaves estrangeiras  
-✔ Relacionamentos N:N implementados com tabelas associativas  
-✔ Tipos de dados adequados (VARCHAR, INT, DATE, DECIMAL)
-
-
 BEGIN TRANSACTION;
 
 --tabela Cliente--
