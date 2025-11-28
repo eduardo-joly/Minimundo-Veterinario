@@ -1,17 +1,3 @@
-Script de Inserção de Dados (DML – INSERT)
-
-O arquivo `02_insert_data.sql` inclui dados reais e compatíveis entre si, para evitar violações de chave estrangeira.
-
-Inclui:  
-- 3 clientes  
-- 3 pets  
-- 2 veterinários  
-- 3 consultas  
-- 3 diagnósticos  
-- 3 medicamentos  
-- serviços e medicamentos aplicados
-
-
 --INSERT--
 INSERT INTO Cliente (nome, sobrenome, telefone, endereco) 
 VALUES
